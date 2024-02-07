@@ -1,0 +1,104 @@
+.container h1 {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+
+body {
+    background-color: #f8f8f8;
+    font-family: "Helvetica", sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #0079ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.response_msg {
+    margin-top: 10px;
+    font-size: 13px;
+    background: #e5d669;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    display: none;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+
+/* Add a hover effect to the form */
+
+form:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add a hover effect to the input fields */
+
+input:hover,
+textarea:hover {
+    border-color: #007bff;
+}
+
+
+/* Add a subtle animation to the button */
+
+button:hover {
+    transform: scale(1.05);
+}

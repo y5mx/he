@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.success-container {
+    text-align: center;
+}
+
+.tick {
+    color: #4CAF50;
+    font-size: 100px;
+    animation: bounceIn 1s;
+    /* You can choose a different animation from Animate.css */
+}
+
+.ticket-number {
+    font-size: 24px;
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+}
